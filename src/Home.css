@@ -1,0 +1,145 @@
+.box-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.box-all .box h1 {
+  color: rgb(80, 77, 77);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+
+  margin-top: 20px;
+}
+.box-all .box p {
+  color: #a1a1a1;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.text {
+  margin-top: 10px;
+}
+
+.text h2 {
+  margin-top: 20px;
+}
+.all-img {
+  background-color: #f9e7e2; /* لون الخلفية الباهت */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.text h1 {
+  font-family: "Cursive", sans-serif;
+  font-size: 36px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.text h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* لجعل العناصر تتناسب في الشاشة */
+  gap: 20px;
+  cursor: pointer;
+}
+
+.content div {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+  width: 220px; /* حجم مناسب لكل عنصر */
+  text-align: center;
+}
+
+.content div img {
+  width: 100%; /* جعل الصور تستجيب */
+  border-radius: 10px;
+  height: auto;
+}
+
+.content h1 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.content p {
+  font-size: 16px;
+  color: #555;
+}
+
+del {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 5px;
+}
+
+span {
+  color: #e74c3c;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bacg {
+  width: 100%;
+  height: 150px;
+  background-image: url(/src/assets/img12.jpg);
+  background: linear-gradient(to right, #000000, #ffffff 6);
+  background: linear-gradient(to bottom, #000000, #ffffff, 0.6);
+
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -60px;
+
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+hr {
+  border-top: 40px solid #000000;
+  color: #000;
+  background-color: #000;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+section.page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  width: 100%;
+  height: 190px;
+  background-image: url(/src/assets/img12.jpg);
+  background: linear-gradient(to right, #000000, #ffffff 6);
+  background: linear-gradient(to bottom, #000000, #ffffff, 0.6);
+
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -60px;
+  margin: 0 auto;
+  color: #ffffff;
+
+  margin-bottom: 50px;
+
+}
+

@@ -1,0 +1,333 @@
+.cart-all {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  background-image: url(/src/assets/img16.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: ;
+  background-repeat: no-repeat;
+  margin-left: 40px;
+}
+.portfolio{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+  text-align: center;
+}
+.portfolio h1{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.portfolio p{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #696969;
+  width: 200px;
+}
+
+
+.cart-all .card1 {
+  width: 500px;
+  height: 500px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+
+.cart-all .card1 h1 {
+  text-align: start;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.cart-all .card1 p {
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #696969;
+}
+
+.cart-all .card1 button {
+  background-color: white;
+  margin-right: 10px;
+  padding: 15px 40px;
+  border-radius: 0px;
+  margin-top: 10px;
+  border: none;
+  outline-style: groove;
+  outline-color: cadetblue;
+}
+.cart-all img {
+  width: 500px;
+  cursor: pointer;
+}
+.photo-cover{
+  width: 100%;
+  height: 600px;
+  background-image: url(/src/assets/img15.jpg);
+  background: linear-gradient(to right, #000000, #ffffff 6);
+  background: linear-gradient(to bottom, #000000, #ffffff, 0.6);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -60px;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.photo-cover h1{
+  color: white;
+  font-size: 40px;
+  margin-top: 20px;
+  font-family: "Roboto Slab", serif;
+}
+.photo-cover .IMG{
+  margin-top: 150px;
+  margin-bottom: 0px;
+  opacity: 0.8;
+  
+}
+.photo-cover p{
+  color: white;
+  margin-top: 15px;
+  font-size: 18px;
+  width: 689px;
+  margin: 0 auto;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+.photo-cover .pp{
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+.imff .all-img-P{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.imff .all-img-P img{
+  width: 600px;
+  height: 200px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  cursor: pointer;
+  object-fit: cover;
+
+}
+.mam{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.team {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.team h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.team h3 {
+  font-size: 24px;
+  margin-bottom: 50px;
+  color: #777;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.member {
+  margin: 0 20px;
+  text-align: center;
+  width: 250px;
+}
+
+.member img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.member h4 {
+  font-size: 20px;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.member p {
+  font-size: 16px;
+  color: #666;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  color: #333;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+.arrangements {
+  background-color: #f9e7e2; /* خلفية باهتة */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.arrangements h2 {
+  font-family: 'Cursive', sans-serif;
+  font-size: 36px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.arrangements h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.arrangements-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.item {
+  position: relative;
+  text-align: center;
+  width: 250px;
+  background-color: #fff; /* إضافة خلفية بيضاء للمنتجات */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.item h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.item p {
+  font-size: 16px;
+  color: #555;
+}
+
+.sold, .sale {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.sale {
+  background-color: #e74c3c; /* لون التخفيض */
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.flower-page{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.flower-page img{
+  width: 300px;
+}
+.subi{
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  background-color: #F9E7E2;
+  padding: 20px;
+}
+.subi p{
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: #F9E7E2;
+  padding: 20px;
+}
+.subscribe{
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.subscribe input{
+  width: 820px;
+  height: 50px;
+  border: none;
+  padding: 10px;
+  position: relative;
+}
+.subscribe button{
+  width: 200px;
+  height: 50px;
+  border: none;
+  padding: 10px;
+  background-color: #070707;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: "Roboto Slab", serif;
+  cursor: pointer;
+  position: absolute;
+  right: 220px;
+}
